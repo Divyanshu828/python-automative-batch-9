@@ -1,3 +1,6 @@
+# HOSPITAL APPOINTMENT SYSTEM
+
+
 doctors = {                                   # Dictionary storing doctors and their slots
     "Dr. Smith": ["10:00", "11:00", "12:00"], # Slots for Dr. Smith
     "Dr. John": ["2:00", "3:00", "4:00"]      # Slots for Dr. John
@@ -64,6 +67,8 @@ while True:                                   # Infinite loop for menu
     print("3. Book Appointment")               # Menu option 3
     print("4. View Patient Details")           # Menu option 4
     print("5. Exit")                           # Menu option 5
+
+   
 
     choice = input("Enter your choice: ")      # User input
 
